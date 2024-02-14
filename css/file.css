@@ -95,9 +95,11 @@ main{
 
 /* footer  */
 
+
+
 #toolbar{
     background-color: var(--color-tool-bar-bg);
-    height: 9vh;
+    height: 88px;
     color: var(--color-icon-color);
 }
 
