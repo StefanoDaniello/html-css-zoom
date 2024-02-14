@@ -28,6 +28,10 @@ img{
     height: 100%;
 }
 
+i{
+    cursor: pointer;
+}
+
 /* general  */
 
 body{
@@ -91,11 +95,26 @@ main{
 
 #toolbar{
     background-color: var(--color-tool-bar-bg);
-    height: 70px;
+    height: 9vh;
+    color: var(--color-icon-color);
+}
+
+footer div ul li i{
+    font-size: xx-large;
+    padding-left: 7px;
 }
 
 
 
+.loghi-container{
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.up-arrow{
+    padding: 12px;
+}
 
 /* flex utility  */
 
@@ -109,6 +128,10 @@ main{
 
 .f-center{
     justify-content: center;
+}
+
+.s-between{
+    justify-content: space-between;
 }
 
 .align-item-center{
