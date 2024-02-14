@@ -12,6 +12,8 @@
 	--color-icon-color: #ffffff;
 	--color-tool-bar-bg: #222222;
 	--color-primary-color: #000000;
+    --color-green:#008000;
+    --color-bg-end:#4A4A4A;
 }
 
 ul{
@@ -99,17 +101,12 @@ main{
     color: var(--color-icon-color);
 }
 
-footer div ul li i{
+footer div div i{
     font-size: xx-large;
 }
 
-
-
-
-
 .loghi-container{
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
 
 }
 
@@ -118,6 +115,17 @@ footer div ul li i{
     padding-left: 15px;
     padding-right: 15px;
     font-size: small
+}
+
+.green{
+    color: var(--color-green);
+}
+
+.red{
+    color: var(--color-red);
+    background-color:var(--color-bg-end);
+    padding: 33px;
+    cursor: pointer;
 }
 
 /* flex utility  */
@@ -164,6 +172,14 @@ footer div ul li i{
     padding-left: 8px;
 }
 
+.padding-left-13{
+    padding-left: 13px;
+}
+
 .padding-left-25{
     padding-left: 25px;
+}
+
+.padding-left-50{
+    padding-left: 50px;
 }
